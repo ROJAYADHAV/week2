@@ -1,0 +1,27 @@
+.cliente {
+	margin-top:10px;
+	border: #0E0B0B 1px solid;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow:1px 1px;
+	transition: box-shadow ease-in 1s;
+}
+#image
+{
+	height:100px;
+}
+.cliente:hover{
+    box-shadow:4px 4px;
+
+}
+#h{
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    0%   { transform: translateX(-30%);}
+    100%  { transform: translateX(0);}
+}
